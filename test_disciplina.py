@@ -14,5 +14,7 @@ def main():
     print(f"Média: {media:.2f}")
     print(f"Situação: {situacao}")
 
+
+
 if __name__ == "__main__":
     main()

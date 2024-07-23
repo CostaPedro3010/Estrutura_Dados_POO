@@ -9,9 +9,12 @@ class Disciplina:
 
     def exibirSituacao(self) -> str:
         media = self.calcularMedia()
+
         if media >= 6.0:
             return "Aprovado"
+
         elif media >= 4.0:
             return "Em Recuperação"
+
         else:
             return "Reprovado"
